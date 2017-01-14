@@ -5,8 +5,9 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   root 'quotes#index'
-
   resources :quotes
+  get 'about', to: 'quotes#about'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # More comments here ....
   # Example of regular route:
