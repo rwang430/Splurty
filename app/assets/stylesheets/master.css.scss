@@ -64,6 +64,14 @@
   font-family: 'caviar_dreamsregular', sans-serif;
   font-size: 20px;
 }
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
 header {
   border-top: 9px solid #222222;
 }
@@ -82,3 +90,13 @@ h2 {
   font-family: 'caviar_dreamsitalic', sans-serif;
 }
 
+h2 span {
+  color: #dddddd;
+  font-family: 'caviar_dreamsregular', sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
